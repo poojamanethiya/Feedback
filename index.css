@@ -1,0 +1,54 @@
+header{
+opacity: 0.8;
+background-color: plum;
+
+}
+h2{text-indent: 72%;}
+
+footer{
+    opacity: 0.8;
+    margin-top: 1%;
+    padding: 2%;
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+}
+section{display: inline-block;  }
+#o{  opacity: 0.8;
+    width: 34%;
+   height: 350px;
+  background-color: cyan;
+    box-sizing: border-box;
+ border: 2px solid purple;
+ text-align: center;
+ margin-right: 2%;
+ float: left;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  height:350px ;
+}
+::-webkit-scrollbar-track
+{
+  border: 7px solid plum;
+}
+   /* Handle */ 
+   ::-webkit-scrollbar-thumb { 
+    background: rgb(247, 129, 227); 
+} 
+
+#t{
+  width: 62%;
+  height: 350px;
+  box-sizing: border-box;
+  border: 2px solid purple;
+  overflow-y: scroll;
+  background-color: cyan;
+  opacity: 0.8;
+}
+#bd{
+    background-image: url('bg.jpg');
+   background-size: cover;
+}
+#a{ color:black;
+  font-size: medium;
+}

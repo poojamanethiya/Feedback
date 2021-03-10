@@ -1,0 +1,36 @@
+
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="form.css">
+<script src="form.js" ></script>
+	<title>FEEDBACK</title>
+
+</head>
+<body id="b">
+      <header><h1>&nbsp;FEEDBACK</h1>
+            <i> <h2>YOUR THOUGHTS MATTER</h2></i>
+         </header>
+      <section id="o">
+      	<form  action="form.html"  onsubmit="return false" ><br><br>
+                  <label for="name">FIRST  NAME : &nbsp;</label>
+                  <input type="text" id ='name'  required><br><br>
+                  <label for="midname">MIDDLE  NAME :</label>
+                  <input type="text" id ='midname' ><br><br>
+                  <label for="lname">LAST  NAME : &nbsp;</label>
+                  <input type="text" id ='lname' required><br><br>
+                  <label for="sug">SUGGESTIONS :</label>
+                  <input type="text " id="sug" name="sug" required><br><br>
+                  <label for="gender">GENDER :</label>
+                  <input type="radio" name="gender" value="Mr." id="male" required>MALE
+                  <input type="radio" name="gender" value="Ms." id="female" required>FEMALE <br><br>
+                  &nbsp; <input type="submit"   onclick ="myfunc()"  value="+" >
+                  &nbsp; <input type="button" value="-" onclick="resetf()" ><br><br>
+            </form>
+      </section>
+      <section id="t">
+            <textarea type ="text" id ="q"></textarea>
+      </section>
+
+</body>
+<footer> &copy ABOUT ME</footer>
+</html>
