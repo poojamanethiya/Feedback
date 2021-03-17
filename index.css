@@ -29,7 +29,7 @@ section{display: inline-block;  }
 }
 ::-webkit-scrollbar-track
 {
-  border: 7px solid plum;
+  border: 7px solid rgb(137, 135, 141);
 }
    /* Handle */ 
    ::-webkit-scrollbar-thumb { 
@@ -49,6 +49,12 @@ section{display: inline-block;  }
     background-image: url('bg.jpg');
    background-size: cover;
 }
-#a{ color:black;
+#a{ color:rgb(0, 0, 0);
   font-size: medium;
+}
+p{
+   background-color:rgb(192, 125, 255);
+   margin-right: 3%;
+
+  margin-left: 3%;
 }
