@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <link rel="stylesheet" type="text/css" href="form.css">
-      <script src="form.js"></script>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <script src="index.js"></script>
 	<title>FEEDBACK</title>
 
 </head>
@@ -13,25 +13,28 @@
          <main>
       <section id="o">
       	<form id="frm"  action="form.html" onsubmit="return false"></form><br><br><br><br>
-                  <label for="name">FIRST  NAME : &nbsp;</label>
-                  <input type="text" id ='name' name="name " maxlength="40"  required ><br><br>
+                  <label for="name">FIRST  NAME :  &nbsp; &nbsp;&nbsp;</label>
+                  <input type="text" id ='name' name="name "  maxlength="40"  ><br><br>
                   <label for="midname">MIDDLE  NAME :</label>
                   <input type="text" id ='midname' name="midname" maxlength="40"><br><br>
-                  <label for="lname">LAST  NAME : &nbsp;</label>
-                  <input type="text" id ='lname' name="lname"  maxlength="40"   required><br><br>
-                  <label for="sug">SUGGESTIONS :</label>
-                  <input type="text " id="sug" name="sug" maxlength="40" required ><br><br>
-                  <label for="gender">GENDER :</label>
-                  <input type="radio" name="gender" value="Mr." id="male" required>MALE 
-                  <input type="radio" name="gender" value="Ms." id="female" required>FEMALE <br><br>
+                  <label for="lname">LAST  NAME : &nbsp; &nbsp; &nbsp;</label>
+                  <input type="text" id ='lname' name="lname"  maxlength="40"   ><br><br>
+                  <label for="sug">SUGGESTIONS : &nbsp;</label>
+                  <input type="text " id="sug" name="sug" d maxlength="40"  ><br><br>
+                  <label for="gender" >GENDER :</label>
+                  <input type="radio" name="gender" value="Mr." id="male" >MALE 
+                  <input type="radio" name="gender" value="Ms." id="female">FEMALE <br><br>
+                 
+                  &nbsp; <input type="button"   onclick ="myfunc()" name="+" value="+" >
+                  &nbsp; <input type="button" name="reset" value="-" onclick="resetf()" ><br><br>
                      </form>
-                     &nbsp; <input type="button"   onclick ="myfunc()" name="+" value="+" >
-                     &nbsp; <input type="button" name="reset" value="-" onclick="resetf()" ><br><br>
-           
+                   
       </section>
    
       <section id="t">
-         <p id="a" ></p>
+         <p id="a" >
+               
+         </p>
           
       </section>
 </main>
