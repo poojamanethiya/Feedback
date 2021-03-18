@@ -49,12 +49,13 @@ section{display: inline-block;  }
     background-image: url('bg.jpg');
    background-size: cover;
 }
-#a{ color:rgb(0, 0, 0);
-  font-size: medium;
-}
-p{
-   background-color:rgb(192, 125, 255);
-   margin-right: 3%;
 
-  margin-left: 3%;
+p{
+   background-color:rgb(221, 198, 243);
+  margin:3%;
+  padding: 2%;
+  border-radius: 12px;
+  color:rgb(0, 0, 0);
+  font-size: large;
+  font-style: italic;
 }
